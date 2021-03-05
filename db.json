@@ -1,0 +1,1054 @@
+{
+  waifus: [
+  {
+    "Id": 1,
+    "Name": "Kobayashi Rindou",
+    "Source": "Shokugeki no Soma",
+    "Rarete": "SS",
+    "Description": "Totsuki Elite Ten 2nd seat"
+  },
+  {
+    "Id": 2,
+    "Name": "Nakiri Erina",
+    "Source": "Shokugeki no Soma",
+    "Rarete": "A",
+    "Description": "God Tongue"
+  },
+  {
+    "Id": 3,
+    "Name": "Nakiri Alice",
+    "Source": "Shokugeki no Soma",
+    "Rarete": "B",
+    "Description": "Heaven Sent Child of Molecular Gastronomy"
+  },
+  {
+    "Id": 4,
+    "Name": "Tadokoro Megumi",
+    "Source": "Shokugeki no Soma",
+    "Rarete": "C",
+    "Description": "Vegetables Mother"
+  },
+  {
+    "Id": 5,
+    "Name": "Mito Ikumi",
+    "Source": "Shokugeki no Soma",
+    "Rarete": "C",
+    "Description": "Meat General"
+  },
+  {
+    "Id": 6,
+    "Name": "Shiro",
+    "Source": "No Game No Life",
+    "Rarete": "S",
+    "Description": "Gamer, Queen, member of 「    」"
+  },
+  {
+    "Id": 7,
+    "Name": "Jibril",
+    "Source": "No Game No Life",
+    "Rarete": "A",
+    "Description": "Younger yet strongest Flügel"
+  },
+  {
+    "Id": 8,
+    "Name": "Dora Stephanie",
+    "Source": "No Game No Life",
+    "Rarete": "C",
+    "Description": "She's such a Steph"
+  },
+  {
+    "Id": 9,
+    "Name": "Hatsuse Izuna",
+    "Source": "No Game No Life",
+    "Rarete": "B",
+    "Description": "Cute doggo loli"
+  },
+  {
+    "Id": 10,
+    "Name": "Zell Chlammy",
+    "Source": "No Game No Life",
+    "Rarete": "C",
+    "Description": "Cheater"
+  },
+  {
+    "Id": 11,
+    "Name": "Mika",
+    "Source": "Girls und Panzer",
+    "Rarete": "S",
+    "Description": "BT-42 drifting in the distance"
+  },
+  {
+    "Id": 12,
+    "Name": "Nishizumi Maho",
+    "Source": "Girls und Panzer",
+    "Rarete": "A",
+    "Description": "Nishizumi Style Heiress"
+  },
+  {
+    "Id": 13,
+    "Name": "Katyusha",
+    "Source": "Girls und Panzer",
+    "Rarete": "B",
+    "Description": "Snow-storm"
+  },
+  {
+    "Id": 14,
+    "Name": "Nishizumi Miho",
+    "Source": "Girls und Panzer",
+    "Rarete": "A",
+    "Description": "Cute Oarai overall commander"
+  },
+  {
+    "Id": 15,
+    "Name": "Darjeeling",
+    "Source": "Girls und Panzer",
+    "Rarete": "B",
+    "Description": "Do you know this english saying ?"
+  },
+  {
+    "Id": 16,
+    "Name": "Shizuka Tsuruki",
+    "Source": "Girls und Panzer",
+    "Rarete": "A",
+    "Description": "Fearless samurai girl"
+  },
+  {
+    "Id": 17,
+    "Name": "Nishi Kinuyo",
+    "Source": "Girls und Panzer",
+    "Rarete": "C",
+    "Description": "Chaaaarge !!!"
+  },
+  {
+    "Id": 18,
+    "Name": "Kay",
+    "Source": "Girls und Panzer",
+    "Rarete": "B",
+    "Description": "Outnumbering the ennemy is the deal"
+  },
+  {
+    "Id": 19,
+    "Name": "Anchovy",
+    "Source": "Girls und Panzer",
+    "Rarete": "B",
+    "Description": "Did you say pasta ?"
+  },
+  {
+    "Id": 20,
+    "Name": "Marie",
+    "Source": "Girls und Panzer",
+    "Rarete": "C",
+    "Description": "French cake eating girl"
+  },
+  {
+    "Id": 21,
+    "Name": "Shimada Alice",
+    "Source": "Girls und Panzer",
+    "Rarete": "B",
+    "Description": "Shimada Style Prodigy"
+  },
+  {
+    "Id": 22,
+    "Name": "Erika",
+    "Source": "Girls und Panzer",
+    "Rarete": "C",
+    "Description": "Nishizumi Maho's disciple"
+  },
+  {
+    "Id": 23,
+    "Name": "Matsukaze Rin",
+    "Source": "Girls und Panzer",
+    "Rarete": "C",
+    "Description": "Centipede's Team horse"
+  },
+  {
+    "Id": 24,
+    "Name": "Sakurajima Mai",
+    "Source": "Rascal doesn't dream...",
+    "Rarete": "S",
+    "Description": "Bunny girl senpai"
+  },
+  {
+    "Id": 25,
+    "Name": "Futaba Rio",
+    "Source": "Rascal doesn't dream...",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 26,
+    "Name": "Azusagawa Kaede",
+    "Source": "Rascal doesn't dream...",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 27,
+    "Name": "Koga Tomoe",
+    "Source": "Rascal doesn't dream...",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 28,
+    "Name": "Makinohara Shoko",
+    "Source": "Rascal doesn't dream...",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 29,
+    "Name": "Toyohama Nodoka",
+    "Source": "Rascal doesn't dream...",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 30,
+    "Name": "Yukinoshita Yukino",
+    "Source": "Oregairu",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 31,
+    "Name": "Yukinoshita Haruno",
+    "Source": "Oregairu",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 32,
+    "Name": "Yuigahama Yui",
+    "Source": "Oregairu",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 33,
+    "Name": "Isshiki Iroha",
+    "Source": "Oregairu",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 34,
+    "Name": "Hiratsuka Shizuka",
+    "Source": "Oregairu",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 35,
+    "Name": "Hikigaya Komachi",
+    "Source": "Oregairu",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 36,
+    "Name": "Kawasako Saki",
+    "Source": "Oregairu",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 37,
+    "Name": "Asuna",
+    "Source": "Sword Art Online",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 38,
+    "Name": "Yuuki",
+    "Source": "Sword Art Online",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 39,
+    "Name": "Leafa",
+    "Source": "Sword Art Online",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 40,
+    "Name": "Alice",
+    "Source": "Sword Art Online",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 41,
+    "Name": "Shinon",
+    "Source": "Sword Art Online",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 42,
+    "Name": "Llenn",
+    "Source": "Sword Art Online",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 43,
+    "Name": "Quinella",
+    "Source": "Sword Art Online",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 44,
+    "Name": "Pitohui",
+    "Source": "Sword Art Online",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 45,
+    "Name": "Fanatio",
+    "Source": "Sword Art Online",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 46,
+    "Name": "Makise Kurisu",
+    "Source": "Steins;Gate",
+    "Rarete": "SS",
+    "Description": "She would like to have a spoon with her fork"
+  },
+  {
+    "Id": 47,
+    "Name": "Shiina Mayuri",
+    "Source": "Steins;Gate",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 48,
+    "Name": "Faris NyanNyan",
+    "Source": "Steins;Gate",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 49,
+    "Name": "Amane Suzuha",
+    "Source": "Steins;Gate",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 50,
+    "Name": "Kiryu Moeka",
+    "Source": "Steins;Gate",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 51,
+    "Name": "Hiyajo Maho",
+    "Source": "Steins;Gate",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 52,
+    "Name": "Jabami Yumeko",
+    "Source": "Kakegurui",
+    "Rarete": "S",
+    "Description": "Compulsive Gambler"
+  },
+  {
+    "Id": 53,
+    "Name": "Saotome Mary",
+    "Source": "Kakegurui",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 54,
+    "Name": "Momobami Kirari",
+    "Source": "Kakegurui",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 55,
+    "Name": "Sumeragi Itsuki",
+    "Source": "Kakegurui",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 56,
+    "Name": "Ikishima Midari",
+    "Source": "Kakegurui",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 57,
+    "Name": "Yomozuki Runa",
+    "Source": "Kakegurui",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 58,
+    "Name": "Ackerman Mikasa",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "S",
+    "Description": "Look at those abs"
+  },
+  {
+    "Id": 59,
+    "Name": "Reiss Historia",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "C",
+    "Description": "Eldian's Queen"
+  },
+  {
+    "Id": 60,
+    "Name": "Hange Zoe",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "A",
+    "Description": "Love Titans. Way too much."
+  },
+  {
+    "Id": 61,
+    "Name": "Leonhart Annie",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "B",
+    "Description": "What would happen if the female titan would belong to a man?"
+  },
+  {
+    "Id": 62,
+    "Name": "Braun Gaby",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "C",
+    "Description": "omg she killed sasha"
+  },
+  {
+    "Id": 63,
+    "Name": "Braus Sasha",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "C",
+    "Description": "Would do anything for food"
+  },
+  {
+    "Id": 64,
+    "Name": "Ymir",
+    "Source": "Shingeki No Kyojin",
+    "Rarete": "C",
+    "Description": "Her song was truly beautiful"
+  },
+  {
+    "Id": 65,
+    "Name": "Akame",
+    "Source": "Akame ga Kill",
+    "Rarete": "S",
+    "Description": "Night Raid killer. Murasame owner."
+  },
+  {
+    "Id": 66,
+    "Name": "Esdeath",
+    "Source": "Akame ga Kill",
+    "Rarete": "A",
+    "Description": "You know it's the best ship right"
+  },
+  {
+    "Id": 67,
+    "Name": "Kurome",
+    "Source": "Akame ga Kill",
+    "Rarete": "B",
+    "Description": "Akame's sister. For the best and the worst."
+  },
+  {
+    "Id": 68,
+    "Name": "Leone",
+    "Source": "Akame ga Kill",
+    "Rarete": "B",
+    "Description": "Tiger waifu"
+  },
+  {
+    "Id": 69,
+    "Name": "Sheele",
+    "Source": "Akame ga Kill",
+    "Rarete": "C",
+    "Description": "The first one. No spoilers."
+  },
+  {
+    "Id": 70,
+    "Name": "Chelsea",
+    "Source": "Akame ga Kill",
+    "Rarete": "C",
+    "Description": "Would be a great makeup channel"
+  },
+  {
+    "Id": 71,
+    "Name": "Mine",
+    "Source": "Akame ga Kill",
+    "Rarete": "C",
+    "Description": "Tatsumi's lover. She's not dead in the manga you fool"
+  },
+  {
+    "Id": 72,
+    "Name": "Najenda",
+    "Source": "Akame ga Kill",
+    "Rarete": "C",
+    "Description": "Night Raid's Boss"
+  },
+  {
+    "Id": 73,
+    "Name": "Seryu",
+    "Source": "Akame ga Kill",
+    "Rarete": "C",
+    "Description": "Crazy girl with a crazy dog"
+  },
+  {
+    "Id": 74,
+    "Name": "Kamado Nezuko",
+    "Source": "Kimetsu no Yaiba",
+    "Rarete": "S",
+    "Description": "Cute demon loli. Also Tanjiro's younger sister"
+  },
+  {
+    "Id": 75,
+    "Name": "Kocho Shinobu",
+    "Source": "Kimetsu no Yaiba",
+    "Rarete": "A",
+    "Description": "Insect Pillar. Don't mess with her"
+  },
+  {
+    "Id": 76,
+    "Name": "Kanroji Mitsuri",
+    "Source": "Kimetsu no Yaiba",
+    "Rarete": "B",
+    "Description": "Rule34 Pillar"
+  },
+  {
+    "Id": 77,
+    "Name": "Tsuyuri Kanao",
+    "Source": "Kimetsu no Yaiba",
+    "Rarete": "C",
+    "Description": "Doesn't talk that much"
+  },
+  {
+    "Id": 78,
+    "Name": "Olivier Mira Armstrong",
+    "Source": "Fullmetal Alchemist",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 79,
+    "Name": "Winry Rockbell",
+    "Source": "Fullmetal Alchemist",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 80,
+    "Name": "Riza Hawkeye",
+    "Source": "Fullmetal Alchemist",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 81,
+    "Name": "Izumi Curtis",
+    "Source": "Fullmetal Alchemist",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 82,
+    "Name": "Asuka Langley Soryu",
+    "Source": "Evangelion",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 83,
+    "Name": "Ayanami Rei",
+    "Source": "Evangelion",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 84,
+    "Name": "Katsuragi Misato",
+    "Source": "Evangelion",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 85,
+    "Name": "Akagi Ritsuko",
+    "Source": "Evangelion",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 86,
+    "Name": "Rem",
+    "Source": "Re:Zero",
+    "Rarete": "S",
+    "Description": "Ram but busty"
+  },
+  {
+    "Id": 87,
+    "Name": "Ram",
+    "Source": "Re:Zero",
+    "Rarete": "A",
+    "Description": "Rem but flat"
+  },
+  {
+    "Id": 88,
+    "Name": "Emilia",
+    "Source": "Re:Zero",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 89,
+    "Name": "Beatrice",
+    "Source": "Re:Zero",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 90,
+    "Name": "Krush Karsten",
+    "Source": "Re:Zero",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 91,
+    "Name": "Uraraka Ochako",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "C",
+    "Description": "Worst waifu ngl"
+  },
+  {
+    "Id": 92,
+    "Name": "Asui Tsuyu",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 93,
+    "Name": "Yaoyorozu Momo",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 94,
+    "Name": "Hado Nejire",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 95,
+    "Name": "Ashido Mina",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 96,
+    "Name": "Jiro Kyoka",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 97,
+    "Name": "Hatsume Mei",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 98,
+    "Name": "Utsushimi Camie",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 99,
+    "Name": "Toga Himiko",
+    "Source": "Boku no Hero Academia",
+    "Rarete": "SS",
+    "Description": "Crazy blood-lover girl"
+  },
+  {
+    "Id": 100,
+    "Name": "Zero Two",
+    "Source": "Darling in the Franxx",
+    "Rarete": "S",
+    "Description": "Darliiiiing"
+  },
+  {
+    "Id": 101,
+    "Name": "Ichigo",
+    "Source": "Darling in the Franxx",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 102,
+    "Name": "Kokoro",
+    "Source": "Darling in the Franxx",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 103,
+    "Name": "Ikuno",
+    "Source": "Darling in the Franxx",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 104,
+    "Name": "Miku",
+    "Source": "Darling in the Franxx",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 105,
+    "Name": "Saber",
+    "Source": "Fate",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 106,
+    "Name": "Tohsaka Rin",
+    "Source": "Fate",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 107,
+    "Name": "Kyrielight Mashu",
+    "Source": "Fate",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 108,
+    "Name": "Aqua",
+    "Source": "KonoSuba",
+    "Rarete": "C",
+    "Description": "Useless godess"
+  },
+  {
+    "Id": 109,
+    "Name": "Megumin",
+    "Source": "KonoSuba",
+    "Rarete": "S",
+    "Description": "EXUPLOSIOOOOOON"
+  },
+  {
+    "Id": 110,
+    "Name": "Darkness",
+    "Source": "KonoSuba",
+    "Rarete": "A",
+    "Description": "Masochist crusader. Useful as a shield"
+  },
+  {
+    "Id": 111,
+    "Name": "Wiz",
+    "Source": "KonoSuba",
+    "Rarete": "B",
+    "Description": "Busty shop owner witch"
+  },
+  {
+    "Id": 112,
+    "Name": "Yunyun",
+    "Source": "KonoSuba",
+    "Rarete": "C",
+    "Description": "Megumin's rival"
+  },
+  {
+    "Id": 113,
+    "Name": "Amelia Watson",
+    "Source": "Hololive EN",
+    "Rarete": "A",
+    "Description": "Time traveller detective idol"
+  },
+  {
+    "Id": 114,
+    "Name": "Gawr Gura",
+    "Source": "Hololive EN",
+    "Rarete": "SS",
+    "Description": "a"
+  },
+  {
+    "Id": 115,
+    "Name": "Calliope Mori",
+    "Source": "Hololive EN",
+    "Rarete": "S",
+    "Description": "Rapper reaper idol"
+  },
+  {
+    "Id": 116,
+    "Name": "Takanashi Kiara",
+    "Source": "Hololive EN",
+    "Rarete": "A",
+    "Description": "Chicken (phoenix ?) idol. KFP owner"
+  },
+  {
+    "Id": 117,
+    "Name": "Ninomae Ina'nis",
+    "Source": "Hololive EN",
+    "Rarete": "B",
+    "Description": "Cthulhu but it's a cute anime girl"
+  },
+  {
+    "Id": 118,
+    "Name": "Melody",
+    "Source": "Vshojo",
+    "Rarete": "SS",
+    "Description": "Are you seriously watching alone?"
+  },
+  {
+    "Id": 119,
+    "Name": "Silvervale",
+    "Source": "Vshojo",
+    "Rarete": "B",
+    "Description": "Fox and Vei's wife"
+  },
+  {
+    "Id": 120,
+    "Name": "Nyanners",
+    "Source": "Vshojo",
+    "Rarete": "S",
+    "Description": "Bllleeggg"
+  },
+  {
+    "Id": 121,
+    "Name": "Froot",
+    "Source": "Vshojo",
+    "Rarete": "B",
+    "Description": "Cute Lich Artist"
+  },
+  {
+    "Id": 122,
+    "Name": "Zentreya",
+    "Source": "Vshojo",
+    "Rarete": "B",
+    "Description": "Baddass dragon drummer"
+  },
+  {
+    "Id": 123,
+    "Name": "Hime",
+    "Source": "Vshojo",
+    "Rarete": "B",
+    "Description": "Big Tiddie Mommy Dragon"
+  },
+  {
+    "Id": 124,
+    "Name": "IronMouse",
+    "Source": "Vshojo",
+    "Rarete": "A",
+    "Description": "Tsundere, but also cute"
+  },
+  {
+    "Id": 125,
+    "Name": "Veibae",
+    "Source": "Vtuber",
+    "Rarete": "A",
+    "Description": "Cat and Silver's wife"
+  },
+  {
+    "Id": 126,
+    "Name": "Lumi",
+    "Source": "Vtuber",
+    "Rarete": "S",
+    "Description": "Just a comfy wolf, Awoooo"
+  },
+  {
+    "Id": 127,
+    "Name": "Yoshida Saki",
+    "Source": "Emergence",
+    "Rarete": "SS",
+    "Description": "Not my proudest fap"
+  },
+  {
+    "Id": 128,
+    "Name": "Suzukawa Rei",
+    "Source": "Mankitsu Happening",
+    "Rarete": "SS",
+    "Description": "Common manga cafe manager, I swear"
+  },
+  {
+    "Id": 129,
+    "Name": "Kaminashi Nozomi",
+    "Source": "Keijo",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 130,
+    "Name": "Kusakai Mio",
+    "Source": "Keijo",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 131,
+    "Name": "Miyata Sayaka",
+    "Source": "Keijo",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 132,
+    "Name": "Fukisaki Kotone",
+    "Source": "Keijo",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 133,
+    "Name": "Rokudo Rin",
+    "Source": "Keijo",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 134,
+    "Name": "Kawai Hanabi",
+    "Source": "Keijo",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 135,
+    "Name": "Tanya von Degurechaff",
+    "Source": "Tanya the Evil",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 136,
+    "Name": "Viktoriya Ivanovna Serebryakov",
+    "Source": "Tanya the Evil",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 137,
+    "Name": "Ryuuko Matoi",
+    "Source": "Kill la Kill",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 138,
+    "Name": "Satsuki Kiryuuin",
+    "Source": "Kill la Kill",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 139,
+    "Name": "Mako Mankanshoku",
+    "Source": "Kill la Kill",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 140,
+    "Name": "Nui Harime",
+    "Source": "Kill la Kill",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 141,
+    "Name": "Quetzalcoatl",
+    "Source": "Kobayashi-san chi no maid dragon",
+    "Rarete": "A",
+    "Description": ""
+  },
+  {
+    "Id": 142,
+    "Name": "Tohru",
+    "Source": "Kobayashi-san chi no maid dragon",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 143,
+    "Name": "Kanna Kamui",
+    "Source": "Kobayashi-san chi no maid dragon",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 144,
+    "Name": "Elma",
+    "Source": "Kobayashi-san chi no maid dragon",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 145,
+    "Name": "Kobayashi",
+    "Source": "Kobayashi-san chi no maid dragon",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 146,
+    "Name": "Horitika Suzune",
+    "Source": "Classroom of the Elite",
+    "Rarete": "S",
+    "Description": ""
+  },
+  {
+    "Id": 147,
+    "Name": "Kushida Kikyou",
+    "Source": "Classroom of the Elite",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 148,
+    "Name": "Sakura Airi",
+    "Source": "Classroom of the Elite",
+    "Rarete": "C",
+    "Description": ""
+  },
+  {
+    "Id": 149,
+    "Name": "Ichinose Honami",
+    "Source": "Classroom of the Elite",
+    "Rarete": "B",
+    "Description": ""
+  },
+  {
+    "Id": 150,
+    "Name": "Littner Yoko",
+    "Source": "Gurren Lagann",
+    "Rarete": "A",
+    "Description": ""
+  }
+]
+}
