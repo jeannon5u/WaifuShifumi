@@ -18,7 +18,4 @@ class PickWaifuViewController: UIViewController {
         self.dismiss(animated: true)
     }
     
-    
-    
-    
 }

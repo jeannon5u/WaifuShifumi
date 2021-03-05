@@ -68,7 +68,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pick a waifu"/>
                                 <connections>
-                                    <action selector="buttonPicjWaifu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NoC-JZ-waR"/>
                                     <segue destination="sWV-PB-hty" kind="show" id="Tm7-ED-A5u"/>
                                 </connections>
                             </button>
@@ -113,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhA-UB-8ZD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1" y="735"/>
+            <point key="canvasLocation" x="-1" y="785"/>
         </scene>
         <!--List Waifus View Controller-->
         <scene sceneID="djL-XV-GJl">
