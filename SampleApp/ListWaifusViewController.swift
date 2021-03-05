@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 //View
 class ListWaifusView: UIViewController {
@@ -29,27 +31,17 @@ class ListWaifusView: UIViewController {
 
 //Controller
 class ListWaifusViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        AF.request("https://api.punkapi.com/v2/beers").response { response in
-//            debugPrint(response)
-//
-//            let jsonBeers = try! JSON(data: response.data!)
-//            let arrayBeer = jsonBeers.arrayValue
-//            for beer in arrayBeer {
-//                self.beers.append(Beer(name: beer["name"].stringValue,degree: beer["abv"].stringValue,description: beer["description"].stringValue,pictureUrl: beer["image_url"].stringValue))
-//            }
-//            self.tableView.reloadData()
-//        }
+        self.tableView.reloadData()
     }
-
+    
     @IBAction func buttonGoBack(_ sender: Any) {
         self.dismiss(animated: true)
     }
     
-    //Current waifus list
     let waifus = WaifusList.sharedInstance.currentWaifus
     
     @IBOutlet var nameWaifu: UILabel!
@@ -71,12 +63,24 @@ class ListWaifusViewController: UITableViewController {
     // déclaration de le cellule (obligatoire)
     // ici on utilise le format de cellule par default
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "WaifuTableViewCell")
         
-        let beer = waifus[indexPath.row]
-        cell.textLabel?.text = beer.name
-    
+        let cell: WaifuCell! = tableView.dequeueReusableCell(withIdentifier: "WaifuTableViewCell") as? WaifuCell
+        
+        let waifu = waifus[indexPath.row]
+        cell.nameWaifu.text = waifu.name
+        cell.rareteWaifu.text = waifu.rarete
+        let url = URL(string: waifu.imageUrl)
+        
+        if let safeUrl = url {
+            cell.imageWaifu.load(URLRequest(url: safeUrl))
+        }
+        
         return cell
+        
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 125
     }
     
     // --- Delegate ---
@@ -93,9 +97,9 @@ class ListWaifusViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segueToWaifuDescription" {
-
+            
             let waifu = sender as? Waifu
-
+            
             if let viewControllerDestination = segue.destination as?
                 WaifuDescriptionViewController {
                 viewControllerDestination.waifu = waifu

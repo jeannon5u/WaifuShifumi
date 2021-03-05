@@ -16,6 +16,7 @@ class WaifuDescriptionViewController: UIViewController {
     @IBOutlet var nameWaifu: UILabel!
     @IBOutlet var originWaifu: UILabel!
     @IBOutlet var descriptionWaifu: UILabel!
+    @IBOutlet var rareteWaifu: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,7 @@ class WaifuDescriptionViewController: UIViewController {
             self.nameWaifu.text = safeWaifu.name
             self.originWaifu.text = "Origin : \(safeWaifu.origin)"
             self.descriptionWaifu.text = "\(safeWaifu.description)"
+            self.rareteWaifu.text = safeWaifu.rarete
             let url = URL(string: safeWaifu.imageUrl)
             
             if let safeUrl = url {

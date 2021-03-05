@@ -6,15 +6,20 @@
 //
 
 class Waifu {
+    var id: Int
     var name: String
     var origin: String
     var description: String
     var imageUrl: String
+    var rarete: String
     
-    init(name:String, origin: String, description: String, imageUrl: String) {
+    init(id: Int, name:String, origin: String, description: String, imageUrl: String, rarete: String) {
+        self.id = id
         self.name = name
         self.origin = origin
         self.description = description
         self.imageUrl = imageUrl
+        self.rarete = rarete
     }
+    
 }
