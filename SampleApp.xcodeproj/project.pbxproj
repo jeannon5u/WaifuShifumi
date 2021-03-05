@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44F9F59425F21D5D00312CB9 /* ShifumiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59325F21D5D00312CB9 /* ShifumiViewController.swift */; };
+		44F9F59625F21D8800312CB9 /* PickWaifuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59525F21D8800312CB9 /* PickWaifuViewController.swift */; };
+		44F9F59825F21D9C00312CB9 /* ListWaifusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59725F21D9C00312CB9 /* ListWaifusViewController.swift */; };
+		44F9F59A25F2201500312CB9 /* Waifu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59925F2201500312CB9 /* Waifu.swift */; };
 		4FA3323A0632AFCEE87C05EB /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82130BEBF32983D0E99E801B /* Pods_SampleApp.framework */; };
 		7E7EA4723D4310FD419ED334 /* Pods_SampleApp_SampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE3DA8892029EEC8420FFFC /* Pods_SampleApp_SampleAppUITests.framework */; };
 		AA36B79F25F16C13007C3F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36B79E25F16C13007C3F23 /* AppDelegate.swift */; };
@@ -41,6 +45,10 @@
 /* Begin PBXFileReference section */
 		0C712294744DBC9C2BDE9A65 /* Pods_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C856965054A0D6A42232D8 /* Pods-SampleApp-SampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppUITests/Pods-SampleApp-SampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44F9F59325F21D5D00312CB9 /* ShifumiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifumiViewController.swift; sourceTree = "<group>"; };
+		44F9F59525F21D8800312CB9 /* PickWaifuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickWaifuViewController.swift; sourceTree = "<group>"; };
+		44F9F59725F21D9C00312CB9 /* ListWaifusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWaifusViewController.swift; sourceTree = "<group>"; };
+		44F9F59925F2201500312CB9 /* Waifu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waifu.swift; sourceTree = "<group>"; };
 		579B63957E3C079C30831108 /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7BD25BB25CF1D43BA1F62324 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		82130BEBF32983D0E99E801B /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,11 +129,15 @@
 				AA36B79E25F16C13007C3F23 /* AppDelegate.swift */,
 				AA36B7A025F16C13007C3F23 /* SceneDelegate.swift */,
 				AA36B7A225F16C13007C3F23 /* ViewController.swift */,
+				44F9F59325F21D5D00312CB9 /* ShifumiViewController.swift */,
+				44F9F59525F21D8800312CB9 /* PickWaifuViewController.swift */,
+				44F9F59725F21D9C00312CB9 /* ListWaifusViewController.swift */,
 				AA36B7A425F16C13007C3F23 /* Main.storyboard */,
 				AA36B7AA25F16C15007C3F23 /* Assets.xcassets */,
 				AA36B7AC25F16C15007C3F23 /* LaunchScreen.storyboard */,
 				AA36B7AF25F16C15007C3F23 /* Info.plist */,
 				AA36B7A725F16C13007C3F23 /* SampleApp.xcdatamodeld */,
+				44F9F59925F2201500312CB9 /* Waifu.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -158,7 +170,6 @@
 				AB9A8A3225FA4F246446336D /* Pods-SampleAppTests.debug.xcconfig */,
 				579B63957E3C079C30831108 /* Pods-SampleAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,6 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA36B7A325F16C13007C3F23 /* ViewController.swift in Sources */,
+				44F9F59425F21D5D00312CB9 /* ShifumiViewController.swift in Sources */,
+				44F9F59A25F2201500312CB9 /* Waifu.swift in Sources */,
+				44F9F59825F21D9C00312CB9 /* ListWaifusViewController.swift in Sources */,
+				44F9F59625F21D8800312CB9 /* PickWaifuViewController.swift in Sources */,
 				AA36B7A925F16C13007C3F23 /* SampleApp.xcdatamodeld in Sources */,
 				AA36B79F25F16C13007C3F23 /* AppDelegate.swift in Sources */,
 				AA36B7A125F16C13007C3F23 /* SceneDelegate.swift in Sources */,
