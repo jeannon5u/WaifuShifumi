@@ -11,6 +11,8 @@
 		44F9F59625F21D8800312CB9 /* PickWaifuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59525F21D8800312CB9 /* PickWaifuViewController.swift */; };
 		44F9F59825F21D9C00312CB9 /* ListWaifusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59725F21D9C00312CB9 /* ListWaifusViewController.swift */; };
 		44F9F59A25F2201500312CB9 /* Waifu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59925F2201500312CB9 /* Waifu.swift */; };
+		44F9F59C25F226EA00312CB9 /* WaifusList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59B25F226EA00312CB9 /* WaifusList.swift */; };
+		44F9F59E25F23B9400312CB9 /* WaifuDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9F59D25F23B9400312CB9 /* WaifuDescriptionViewController.swift */; };
 		4FA3323A0632AFCEE87C05EB /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82130BEBF32983D0E99E801B /* Pods_SampleApp.framework */; };
 		7E7EA4723D4310FD419ED334 /* Pods_SampleApp_SampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE3DA8892029EEC8420FFFC /* Pods_SampleApp_SampleAppUITests.framework */; };
 		AA36B79F25F16C13007C3F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36B79E25F16C13007C3F23 /* AppDelegate.swift */; };
@@ -49,6 +51,8 @@
 		44F9F59525F21D8800312CB9 /* PickWaifuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickWaifuViewController.swift; sourceTree = "<group>"; };
 		44F9F59725F21D9C00312CB9 /* ListWaifusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWaifusViewController.swift; sourceTree = "<group>"; };
 		44F9F59925F2201500312CB9 /* Waifu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waifu.swift; sourceTree = "<group>"; };
+		44F9F59B25F226EA00312CB9 /* WaifusList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaifusList.swift; sourceTree = "<group>"; };
+		44F9F59D25F23B9400312CB9 /* WaifuDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaifuDescriptionViewController.swift; sourceTree = "<group>"; };
 		579B63957E3C079C30831108 /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7BD25BB25CF1D43BA1F62324 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		82130BEBF32983D0E99E801B /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,12 +136,14 @@
 				44F9F59325F21D5D00312CB9 /* ShifumiViewController.swift */,
 				44F9F59525F21D8800312CB9 /* PickWaifuViewController.swift */,
 				44F9F59725F21D9C00312CB9 /* ListWaifusViewController.swift */,
+				44F9F59D25F23B9400312CB9 /* WaifuDescriptionViewController.swift */,
 				AA36B7A425F16C13007C3F23 /* Main.storyboard */,
 				AA36B7AA25F16C15007C3F23 /* Assets.xcassets */,
 				AA36B7AC25F16C15007C3F23 /* LaunchScreen.storyboard */,
 				AA36B7AF25F16C15007C3F23 /* Info.plist */,
 				AA36B7A725F16C13007C3F23 /* SampleApp.xcdatamodeld */,
 				44F9F59925F2201500312CB9 /* Waifu.swift */,
+				44F9F59B25F226EA00312CB9 /* WaifusList.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -428,6 +434,8 @@
 				44F9F59625F21D8800312CB9 /* PickWaifuViewController.swift in Sources */,
 				AA36B7A925F16C13007C3F23 /* SampleApp.xcdatamodeld in Sources */,
 				AA36B79F25F16C13007C3F23 /* AppDelegate.swift in Sources */,
+				44F9F59C25F226EA00312CB9 /* WaifusList.swift in Sources */,
+				44F9F59E25F23B9400312CB9 /* WaifuDescriptionViewController.swift in Sources */,
 				AA36B7A125F16C13007C3F23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

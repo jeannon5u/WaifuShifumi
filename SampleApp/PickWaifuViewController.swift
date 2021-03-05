@@ -14,6 +14,11 @@ class PickWaifuViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonGoBack(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
+    
+    
+    
 }
-

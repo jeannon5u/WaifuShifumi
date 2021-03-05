@@ -26,6 +26,9 @@
                                 <rect key="frame" x="19" y="20" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="gfN-Q1-1Ex" eventType="touchUpInside" id="eBw-7o-73x"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -65,6 +68,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pick a waifu"/>
                                 <connections>
+                                    <action selector="buttonPicjWaifu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NoC-JZ-waR"/>
                                     <segue destination="sWV-PB-hty" kind="show" id="Tm7-ED-A5u"/>
                                 </connections>
                             </button>
@@ -73,7 +77,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="List of waifus"/>
                                 <connections>
-                                    <segue destination="mgQ-gj-VPO" kind="show" id="o0x-fC-JgA"/>
+                                    <segue destination="BBO-PK-uAQ" kind="show" id="FBM-63-TNu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -97,6 +101,9 @@
                                 <rect key="frame" x="20" y="20" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <action selector="buttonGoBack:" destination="sWV-PB-hty" eventType="touchUpInside" id="PEG-om-ghq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -109,27 +116,90 @@
             <point key="canvasLocation" x="-1" y="735"/>
         </scene>
         <!--List Waifus View Controller-->
-        <scene sceneID="qDs-Uo-vtZ">
+        <scene sceneID="djL-XV-GJl">
             <objects>
-                <viewController id="mgQ-gj-VPO" customClass="ListWaifusViewController" customModule="SampleApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OhK-Q3-eZ7">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48H-pA-dOD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tableViewController id="BBO-PK-uAQ" customClass="ListWaifusViewController" customModule="SampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="HNO-Pm-3rz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="U66-OC-P5i">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U66-OC-P5i" id="LAB-hW-Emd">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BBO-PK-uAQ" id="H9D-0s-pOl"/>
+                            <outlet property="delegate" destination="BBO-PK-uAQ" id="973-Af-2sX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="jMl-Ft-JeB"/>
+                    <connections>
+                        <segue destination="kzi-6T-uRn" kind="show" identifier="segueToWaifuDescription" id="emR-ui-U0x"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="678" y="735"/>
+        </scene>
+        <!--Waifu Description View Controller-->
+        <scene sceneID="Al7-Wy-TMm">
+            <objects>
+                <viewController id="kzi-6T-uRn" customClass="WaifuDescriptionViewController" customModule="SampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xdb-oX-Dlv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi8-K7-onj">
-                                <rect key="frame" x="20" y="20" width="48" height="30"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zMt-0T-OMJ">
+                                <rect key="frame" x="19" y="43" width="375" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Back"/>
-                            </button>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqK-Va-tK4">
+                                <rect key="frame" x="19" y="369" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg8-IW-c9V">
+                                <rect key="frame" x="19" y="533" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDl-N4-FWF">
+                                <rect key="frame" x="19" y="478" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="nTX-uH-R8J"/>
+                        <viewLayoutGuide key="safeArea" id="RlD-9K-jLO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="IdO-Zt-BKE"/>
+                    <navigationItem key="navigationItem" id="3VU-08-dhy"/>
+                    <connections>
+                        <outlet property="descriptionWaifu" destination="gg8-IW-c9V" id="bUn-wX-34m"/>
+                        <outlet property="imageWaifu" destination="zMt-0T-OMJ" id="Ue1-JZ-CWR"/>
+                        <outlet property="nameWaifu" destination="UqK-Va-tK4" id="Rts-I3-Vcc"/>
+                        <outlet property="originWaifu" destination="MDl-N4-FWF" id="fGd-hx-hSV"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aKP-Us-z2B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cB-JO-QVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="681" y="735"/>
+            <point key="canvasLocation" x="1389.8550724637682" y="734.59821428571422"/>
         </scene>
     </scenes>
 </document>
