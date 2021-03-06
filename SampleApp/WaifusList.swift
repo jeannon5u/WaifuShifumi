@@ -11,6 +11,7 @@ public class WaifusList {
     
     var waifus: [Waifu] = []
     var currentWaifus: [Waifu] = []
+    var selectedWaifu: Waifu = Waifu(id: 1, name: "", origin: "", description: "", imageUrl: "", rarete: "")
     
     init() {
     }
@@ -22,5 +23,12 @@ public class WaifusList {
     func addWaifuToCurrent(waifu: Waifu) {
         self.currentWaifus.append(waifu)
     }
+ 
+    func changeSelectedWaifu(waifu: Waifu) {
+        self.selectedWaifu = waifu
+    }
     
+    func isWaifuSelcted() -> Bool {
+        return self.selectedWaifu.id != 0
+    }
 }

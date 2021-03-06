@@ -10,13 +10,16 @@ import Alamofire
 import SwiftyJSON
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var buttonShifumi: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         AF.request("https://6041ee3d7f50e000173ab563.mockapi.io/waifu").response { response in
             debugPrint(response)
-
+            
             let jsonWaifus = try! JSON(data: response.data!)
             let arrayWaifus = jsonWaifus.arrayValue
             for waifu in arrayWaifus {
@@ -25,6 +28,15 @@ class ViewController: UIViewController {
             }
         }
     }
-
+    @IBAction func playAction(_ sender: Any) {
+        if WaifusList.sharedInstance.isWaifuSelcted() {
+            performSegue(withIdentifier: "menuToPlay", sender: nil)
+        } else {
+            let alert = UIAlertController(title: "No Waifu Selected", message: "Please select a Waifu in your list", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "ok", style: .cancel, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+    }
     
 }

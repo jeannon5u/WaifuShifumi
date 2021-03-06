@@ -40,6 +40,8 @@ class PickWaifuViewController: UIViewController {
         
         nameWaifu.text = waifuToAdd.name
         rareteWaifu.text = waifuToAdd.rarete
+        origineWaifu.text = waifuToAdd.origin
+        descriptionWaifu.text = waifuToAdd.description
         
         let url = URL(string: waifuToAdd.imageUrl)
         if let safeUrl = url {
@@ -55,5 +57,7 @@ class PickWaifuViewController: UIViewController {
     @IBOutlet var imageWaifu: WKWebView!
     @IBOutlet var nameWaifu: UILabel!
     @IBOutlet var rareteWaifu: UILabel!
+    @IBOutlet var origineWaifu: UILabel!
+    @IBOutlet var descriptionWaifu: UILabel!
     
 }

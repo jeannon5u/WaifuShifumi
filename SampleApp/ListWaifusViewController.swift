@@ -32,17 +32,19 @@ class ListWaifusView: UIViewController {
 //Controller
 class ListWaifusViewController: UITableViewController {
     
+    let waifus = WaifusList.sharedInstance.currentWaifus
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //KEEP THIS FUCKING LINE
+        self.tableView.register(UINib(nibName: "WaifuCell", bundle: nil), forCellReuseIdentifier: "WaifuTableViewCell")
         self.tableView.reloadData()
     }
     
     @IBAction func buttonGoBack(_ sender: Any) {
         self.dismiss(animated: true)
     }
-    
-    let waifus = WaifusList.sharedInstance.currentWaifus
     
     @IBOutlet var nameWaifu: UILabel!
     

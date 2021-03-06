@@ -14,8 +14,8 @@
             filePath = "SampleApp/ListWaifusViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23,79 +23,157 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "57E4A63E-1977-4F0A-9F20-7A1AE14E9AFD"
+            uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SampleApp/ListWaifusViewController.swift"
+            filePath = "SampleApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "ListWaifusViewController"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "57E4A63E-1977-4F0A-9F20-7A1AE14E9AFD - c6e00f58218b3f60"
+                  uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0 - b25c1ec59ea3cdc7"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SampleApp.ListWaifusViewController.waifus.getter : Swift.Array&lt;SampleApp.Waifu&gt;"
+                  symbolName = "SampleApp.ViewController.buttonShifumi.getter : Swift.Optional&lt;__C.UIButton&gt;"
                   moduleName = "SampleApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ListWaifusViewController.swift"
+                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "52">
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "126">
                </Location>
                <Location
-                  uuid = "57E4A63E-1977-4F0A-9F20-7A1AE14E9AFD - 38fb11c875103e74"
+                  uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0 - d571e5de7729bdcb"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SampleApp.ListWaifusViewController.init(style: __C.UITableViewStyle) -&gt; SampleApp.ListWaifusViewController"
+                  symbolName = "SampleApp.ViewController.buttonShifumi.setter : Swift.Optional&lt;__C.UIButton&gt;"
                   moduleName = "SampleApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ListWaifusViewController.swift"
+                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "45">
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "160">
                </Location>
                <Location
-                  uuid = "57E4A63E-1977-4F0A-9F20-7A1AE14E9AFD - 764b4ca033a03a22"
+                  uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0 - d73c0b047f4bb9da"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SampleApp.ListWaifusViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SampleApp.ListWaifusViewController"
+                  symbolName = "SampleApp.ViewController.buttonShifumi.modify : Swift.Optional&lt;__C.UIButton&gt;"
                   moduleName = "SampleApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ListWaifusViewController.swift"
+                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "131">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
                </Location>
                <Location
-                  uuid = "57E4A63E-1977-4F0A-9F20-7A1AE14E9AFD - b662901d98f43e68"
+                  uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0 - dd0141cefad8681"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SampleApp.ListWaifusViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SampleApp.ListWaifusViewController&gt;"
+                  symbolName = "SampleApp.ViewController.buttonShifumi.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "SampleApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ListWaifusViewController.swift"
+                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "87">
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0 - 49fa12b6633d4aeb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleApp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SampleApp.ViewController"
+                  moduleName = "SampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "0D9017F8-97DF-4C20-A314-DC63325AA0B0 - 4eb8321c3b69232f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleApp.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SampleApp.ViewController&gt;"
+                  moduleName = "SampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeannon5u/Documents/ProjetShifumi/SampleApp/SampleApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "90">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58EC8885-ECE7-4E88-8318-83A7074553C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "playAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BFE4105-CD79-407F-8C0C-2818AD05486C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleApp/ShifumiViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBAAE01F-223E-43D9-8A89-F5ABD8B36C3A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleApp/ShifumiViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
