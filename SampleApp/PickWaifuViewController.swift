@@ -10,9 +10,23 @@ import WebKit
 
 class PickWaifuViewController: UIViewController {
     
+    @IBAction func buttonGoBack(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
+    @IBOutlet var imageWaifu: WKWebView!
+    @IBOutlet var nameWaifu: UILabel!
+    @IBOutlet var rareteWaifu: UILabel!
+    @IBOutlet var origineWaifu: UILabel!
+    @IBOutlet var descriptionWaifu: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        waifuPull()
+    }
+    
+    func waifuPull () {
         var rarete: String
         let randRarete = Int.random(in: 1...100)
         
@@ -47,17 +61,10 @@ class PickWaifuViewController: UIViewController {
         if let safeUrl = url {
             imageWaifu.load(URLRequest(url: safeUrl))
         }
-        
     }
     
-    @IBAction func buttonGoBack(_ sender: Any) {
-        self.dismiss(animated: true)
+    @IBAction func buttonReroll(_ sender: Any) {
+        waifuPull()
     }
-    
-    @IBOutlet var imageWaifu: WKWebView!
-    @IBOutlet var nameWaifu: UILabel!
-    @IBOutlet var rareteWaifu: UILabel!
-    @IBOutlet var origineWaifu: UILabel!
-    @IBOutlet var descriptionWaifu: UILabel!
     
 }

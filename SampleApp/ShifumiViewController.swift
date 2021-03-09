@@ -10,7 +10,8 @@ import WebKit
 
 class ShifumiViewController: UIViewController {
 
-
+    var oppoPV : Float = 50
+    var playPV : Float = 50
     var playMove : String = ""
     var oppoMove : String = ""
     
@@ -21,7 +22,6 @@ class ShifumiViewController: UIViewController {
     @IBOutlet var playImageWaifu: WKWebView!
     @IBOutlet var playNameWaifu: UILabel!
     
-    
     @IBOutlet var rockButtonOutlet: UIButton!
     @IBOutlet var paperButtonOutlet: UIButton!
     @IBOutlet var scissorButtonOutlet: UIButton!
@@ -29,10 +29,23 @@ class ShifumiViewController: UIViewController {
     @IBOutlet var playSelectMove: UIImageView!
     @IBOutlet var oppoSelectMove: UIImageView!
     
+    @IBOutlet var textResultat: UILabel!
+    
+    @IBOutlet var playProgress: UIProgressView!
+    @IBOutlet var oppoProgress: UIProgressView!
+    
+    @IBOutlet var playPVText: UILabel!
+    @IBOutlet var oppoPVText: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textResultat.text = ""
         background.image = UIImage(named: "background_shifumi")
+        playProgress.setProgress(1.0, animated: false)
+        oppoProgress.setProgress(1.0, animated: false)
+        playPVText.text = "PV : 50/50"
+        oppoPVText.text = "PV : 50/50"
         
         let playWaifu = WaifusList.sharedInstance.selectedWaifu
         
@@ -76,6 +89,8 @@ class ShifumiViewController: UIViewController {
         play(playMove: playMove)
     }
     
+    
+    
     func play(playMove : String) {
         
         playSelectMove.image = UIImage(named: playMove)
@@ -102,12 +117,59 @@ class ShifumiViewController: UIViewController {
         
         
         if(oppoMove == playMove){
-            rockButtonOutlet.isHidden = false
-            paperButtonOutlet.isHidden = false
-            scissorButtonOutlet.isHidden = false
+            textResultat.text = "Draw"
+            oppoPV -= 5
+            playPV -= 5
         }
         else{
-            
+            switch(oppoMove) {
+            case "rock" :
+                switch(playMove) {
+                case "paper":
+                    textResultat.text = "Victory"
+                    oppoPV -= 10
+                    
+                case "scissor" :
+                    textResultat.text = "Defeat"
+                    playPV -= 10
+                default : break
+                }
+            case "paper" :
+                switch(playMove) {
+                case "rock":
+                    textResultat.text = "Defeat"
+                    playPV -= 10
+                case "scissor" :
+                    textResultat.text = "Victory"
+                    oppoPV -= 10
+                default : break
+                }
+                
+            case "scissor" :
+                switch(playMove) {
+                case "rock":
+                    textResultat.text = "Victory"
+                    oppoPV -= 10
+                case "paper" :
+                    textResultat.text = "Defeat"
+                    playPV -= 10
+                default : break
+                }
+                
+            default : break
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
+            self.rockButtonOutlet.isHidden = false
+            self.paperButtonOutlet.isHidden = false
+            self.scissorButtonOutlet.isHidden = false
+            self.oppoSelectMove.image = nil
+            self.playSelectMove.image = nil
+            self.textResultat.text = ""
+            self.playProgress.setProgress(self.playPV/50, animated: true)
+            self.oppoProgress.setProgress(self.oppoPV/50, animated: true)
+            self.playPVText.text = "PV : \(self.playPV)/50"
+            self.oppoPVText.text = "PV : \(self.oppoPV)/50"
         }
         
         

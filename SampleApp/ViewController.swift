@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        AF.request("https://6041ee3d7f50e000173ab563.mockapi.io/waifu").response { response in
+        AF.request("http://83.194.217.179:3001/waifu").response { response in
             debugPrint(response)
             
             let jsonWaifus = try! JSON(data: response.data!)
