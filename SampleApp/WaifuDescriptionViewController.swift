@@ -18,13 +18,14 @@ class WaifuDescriptionViewController: UIViewController {
     @IBOutlet var descriptionWaifu: UILabel!
     @IBOutlet var rareteWaifu: UILabel!
     
+    @IBAction func buttonBack(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func buttonSelectWaifu(_ sender: Any) {
         if let safeWaifu = waifu {
             WaifusList.sharedInstance.changeSelectedWaifu(waifu: safeWaifu)
             let alert = UIAlertController(title: "New waifu selected", message: "", preferredStyle: UIAlertController.Style.alert)
-
-            // add an action (button)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
 
             // show the alert
             self.present(alert, animated: true, completion: {

@@ -24,6 +24,18 @@ class PickWaifuViewController: UIViewController {
         super.viewDidLoad()
         
         waifuPull()
+        
+        imageWaifu.layer.borderWidth = 2
+        imageWaifu.layer.borderColor = UIColor.black.cgColor
+        
+        descriptionWaifu.layer.cornerRadius = 20
+        descriptionWaifu.layer.borderWidth = 3
+        descriptionWaifu.layer.borderColor = UIColor.black.cgColor
+        descriptionWaifu.layer
+        
+        origineWaifu.layer.cornerRadius = 5
+        origineWaifu.layer.borderWidth = 3
+        origineWaifu.layer.borderColor = UIColor.black.cgColor
     }
     
     func waifuPull () {
